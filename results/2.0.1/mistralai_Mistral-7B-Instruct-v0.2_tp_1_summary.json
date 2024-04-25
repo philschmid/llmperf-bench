@@ -1,0 +1,66 @@
+{
+  "1": {
+    "concurrency": 1,
+    "input_token_length": 750,
+    "output_token_length": 150,
+    "first-time-to-token_mean_in_ms": 190.81361823002226,
+    "throughput_token_per_s": 29.580980049177445,
+    "latency_ms_per_token": 32.486085442511
+  },
+  "2": {
+    "concurrency": 2,
+    "input_token_length": 750,
+    "output_token_length": 150,
+    "first-time-to-token_mean_in_ms": 228.1545006498709,
+    "throughput_token_per_s": 54.293641277177215,
+    "latency_ms_per_token": 35.02027450877645
+  },
+  "4": {
+    "concurrency": 4,
+    "input_token_length": 750,
+    "output_token_length": 150,
+    "first-time-to-token_mean_in_ms": 356.3746401098251,
+    "throughput_token_per_s": 100.05140501441747,
+    "latency_ms_per_token": 37.24236417821833
+  },
+  "8": {
+    "concurrency": 8,
+    "input_token_length": 750,
+    "output_token_length": 150,
+    "first-time-to-token_mean_in_ms": 677.3427201151907,
+    "throughput_token_per_s": 171.38141087813713,
+    "latency_ms_per_token": 41.826300101902866
+  },
+  "16": {
+    "concurrency": 16,
+    "input_token_length": 750,
+    "output_token_length": 150,
+    "first-time-to-token_mean_in_ms": 1408.7221772767862,
+    "throughput_token_per_s": 254.0274153224095,
+    "latency_ms_per_token": 52.34988941925654
+  },
+  "32": {
+    "concurrency": 32,
+    "input_token_length": 750,
+    "output_token_length": 150,
+    "first-time-to-token_mean_in_ms": 2735.7235091327257,
+    "throughput_token_per_s": 347.76790811510745,
+    "latency_ms_per_token": 70.9129034334842
+  },
+  "64": {
+    "concurrency": 64,
+    "input_token_length": 750,
+    "output_token_length": 150,
+    "first-time-to-token_mean_in_ms": 5639.237085249846,
+    "throughput_token_per_s": 394.5463883717863,
+    "latency_ms_per_token": 110.71663372920901
+  },
+  "128": {
+    "concurrency": 128,
+    "input_token_length": 750,
+    "output_token_length": 150,
+    "first-time-to-token_mean_in_ms": 12608.293756359246,
+    "throughput_token_per_s": 419.9410400983778,
+    "latency_ms_per_token": 168.93053685745764
+  }
+}
