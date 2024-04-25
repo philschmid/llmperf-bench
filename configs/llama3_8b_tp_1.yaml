@@ -1,0 +1,11 @@
+model_id: meta-llama/Meta-Llama-3-8B-Instruct
+num_gpus: 1
+memory_per_gpu: 24 
+tgi:
+  max_batch_prefill_tokens: 6144
+  max_input_length: 3072
+  max_total_tokens: 4096
+concurrency: 1,2,4,8,16,32,64,128
+num_requests: 100
+input_token_length: 750
+output_token_length: 150

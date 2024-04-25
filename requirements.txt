@@ -1,0 +1,5 @@
+-e ./llmperf
+docker
+requests 
+pyyaml
+huggingface_hub
